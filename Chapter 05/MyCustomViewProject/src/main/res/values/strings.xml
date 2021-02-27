@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyCustomView</string>
+    <string name="action_activate_second_display">Select Display</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_multi_screen_demo">Two Screens Demo</string>
+    <string name="presentation_with_media_router_play_on">Play on...</string>
+    <string name="second_screen_content">This is the second screen.</string>
+    <string name="first_screen">This is the first screen.</string>
+    <string name="title_activity_open_gles30_demo">OpenGLES30Demo</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="ipsum_lorem_one">
+        Lorem ipsum dolor sit amet, iudicabit necessitatibus ne vix. Nam id animal mandamus. Fugit erroribus cu eum.
+        Minim diceret expetenda vix ea. Eu natum ornatus ullamcorper vel, nam id velit expetendis mnesarchum.
+
+        Recusabo splendide elaboraret cum ex, eius quaeque petentium at vel, no mei quot graece. Illum perfecto
+        sapientem mea ut. Vis ut graece oblique. Mea cu aliquip theophrastus, usu vide nihil ne. Vis te minim iudico
+        omittantur, qui ne amet error referrentur. Odio vitae comprehensam ad ius. At scripta convenire mel, feugiat
+        erroribus qui ad.
+
+        Scaevola insolens ex duo, nam voluptua torquatos at, omnium iriure epicurei nec ex. Cu euismod voluptaria nam.
+        Probo virtute conceptam cum an. Nec te diam agam delicatissimi, nostro concludaturque sit ne. Case dicit cu sit,
+        vero detraxit complectitur eu mea, choro mollis te pro.
+
+        Has cu ullum torquatos, his blandit accusata cu. Vix id mentitum antiopam, te meis rebum est, te nec quod
+        delicata mnesarchum. Ne tation similique forensibus vix. Ne iudico constituam pro, elitr essent civibus sit id.
+        Elitr debitis vel te, vel meis deleniti ea. Ius cu liber legere, qui aperiri electram inciderint ne. Essent
+        fuisset eligendi vis ut, est et populo equidem, nec id erant mundi percipit.
+    </string>
+    <string name="perform_save">Save text</string>
+    <string name="shakespeare_desc">Shakespeare</string>
+    <string name="badge_shakespear_achievment">You\'ve received the Shakespeare badge.</string>
+    <string name="notebook_title">Notebookify</string>
+
+</resources>

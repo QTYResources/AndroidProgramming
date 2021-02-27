@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Advanced Audio, Video, and Camera Applications</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <plurals name="msg_count">
+        <item quantity="one">You have one message.</item>
+        <item quantity="two">You have two messages.</item>
+        <item quantity="few">You have %d messages.</item>
+        <item quantity="many">You have %d messages.</item>
+        <item quantity="zero">You have no messages.</item>
+    </plurals>
+</resources>

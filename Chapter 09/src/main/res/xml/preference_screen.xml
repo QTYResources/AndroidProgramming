@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/network_preferences_title">
+        <CheckBoxPreference
+                android:title="@string/network_wifi_only_title"
+                android:summaryOn="@string/network_wifi_only_summary_on"
+                android:summaryOff="@string/network_wifi_only_summary_off"
+                android:key="network.wifiOnly"
+                android:defaultValue="false"/>
+        <ListPreference
+                android:title="@string/network_retry_count_title"
+                android:summary="@string/network_retry_count_summary"
+                android:key="network.retryCount"
+                android:defaultValue="3"
+                android:entryValues="@array/network_retry_count_option_values"
+                android:entries="@array/network_retry_count_options" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,33 @@
+package com.aptl.code.task;
+
+option optimize_for = LITE_RUNTIME;
+option java_package = "com.aptl.protobuf";
+option java_outer_classname = "TaskProtos";
+
+message Task {
+    enum Status {
+        CREATED = 0;
+        ONGOING = 1;
+        CANCELLED = 2;
+        COMPLETED = 3;
+    }
+
+    message Owner {
+        required string name = 1;
+        optional string email = 2;
+        optional string phone = 3;
+    }
+
+    message Comment {
+        required string author = 1;
+        required uint32 timestamp = 2;
+        required string content = 3;
+    }
+
+    required string name = 1;
+    required uint64 created = 2;
+    required int32 priority = 3;
+    required Status status = 4;
+    optional Owner owner = 5;
+    repeated Comment comments = 6;
+}
